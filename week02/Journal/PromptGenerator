@@ -1,0 +1,17 @@
+using System;
+
+class PromptGenerator
+{
+    public List<string> _prompts = new List<string>()
+    {
+        "What was the best part of your day?",
+        "What are you grateful for today?",
+        "Describe a challenge you faced recently and how you overcame it.",
+        "What is a goal you have for the next month?",
+        "Write about someone who has had a positive impact on your life."
+    };
+    public string GetRandomPrompt()
+    {
+        Console.WriteLine("Hello World! This is the Journal Project.");
+    }
+}
