@@ -1,6 +1,6 @@
 using System;
 
-class Entry
+public class Entry
 {
     public string _date;
     public string _promptText;
@@ -8,6 +8,7 @@ class Entry
 
     public void Display()
     {
-        Console.WriteLine("Hello World! This is the Journal Project.");
+        Console.WriteLine($"{_date} - {_promptText}");
+        Console.WriteLine(_entryText);
     }
 }
