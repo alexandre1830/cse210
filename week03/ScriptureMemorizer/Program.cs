@@ -1,3 +1,5 @@
+// As suggested in the stretch challenge, this program now hides multiple words at a time with no repetition.
+
 using System;
 
 class Program
